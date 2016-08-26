@@ -13,6 +13,9 @@ gem 'haml'
 gem 'simple_form', github: 'kesha-antonov/simple_form', branch: 'rails-5-0'
 gem 'bootstrap-sass'
 gem "paperclip", "~> 5.0.0"
+gem 'cocoon', '~> 1.2', '>= 1.2.9'
+gem 'devise'
+
 
 group :development, :test do
   gem 'byebug', platform: :mri
