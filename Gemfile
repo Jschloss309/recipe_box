@@ -10,7 +10,7 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 gem 'jbuilder', '~> 2.5'
 gem 'haml'
-gem 'simple_form', github: 'kesha-antonov/simple_form', branch: 'rails-5-0'
+gem 'simple_form', '~> 3.3', '>= 3.3.1'
 gem 'bootstrap-sass'
 gem "paperclip", "~> 5.0.0"
 gem 'cocoon', '~> 1.2', '>= 1.2.9'
