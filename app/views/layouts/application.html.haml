@@ -1,15 +1,15 @@
 !!! 5
 %html
 %head
-	%title Recipe App
-	= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
-	= javascript_include_tag 'application', 'data-turbolinks-track' => true
+	%title 1 Of A Kind
+	= stylesheet_link_tag    'application', media: 'all'
+	= javascript_include_tag 'application'
 	= csrf_meta_tags
 
 %body
 	%nav.navbar.navbar-default
 		.container
-			.navbar-brand= link_to "Recipe Box", root_path
+			.navbar-brand= link_to "1 OF A KIND", root_path
 
 			- if user_signed_in?
 				%ul.nav.navbar-nav.navbar-right
